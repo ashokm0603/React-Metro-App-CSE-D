@@ -1,0 +1,34 @@
+nav{
+    background-image: linear-gradient(45deg, purple , magenta);
+}
+
+nav>ol{
+    align-items: center;
+    height: 80px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+nav>ol>li{
+    background-color: beige;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+nav>ol>li>a{
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+/* products page stylings  */
+
+
+.stack{
+    width: 150px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 50%;
+}

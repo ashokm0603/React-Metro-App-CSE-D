@@ -15,7 +15,7 @@
         ii. npm create vite@latest 
 
 ## Components : 
-------------
+---------------
     -> Components are the smallest UI blocks in the web page 
     -> Components are reusable 
 
@@ -62,7 +62,7 @@ syntax -2 :
         )
     }
     export default FunctionName;
-    
+
 syntax -3 : 
     const FunctionName=function(){
         return(
@@ -72,3 +72,35 @@ syntax -3 :
     export default FunctionName;
 
 
+### States in React 
+-----------------
+    ->States are used to hold the data 
+    ->State are present only in Class Based Component 
+    ->State are mutable in nature 
+
+    Note: 
+      ->If we want to declared states in Function based component here we require "hooks"
+      ->hooks are introduced in react version 16.8 
+      ->hooks are used to make function based component as a stateFull (dynamic)
+      Ex: useState() , useEffect() , useRef() , useMemo() , useCallback() , useNavigate() , useContext() , useReduce()..etc
+
+
+### Routers in react 
+-----------------
+    ->Routers are used to navigate from one component to another component 
+    ->To install " react-router-dom" 
+
+    ->react-router-dom package provides in build components 
+        1. BrowserRouter 
+        2. Routes 
+        3. Route 
+        4. useNavigate  ->hooks
+        5. Link 
+        6. Params 
+
+## API Integration 
+-------------------
+    ->In React JS We can integrate API in 2 ways
+
+     1.using fetch()
+     2.using axios 
